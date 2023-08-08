@@ -70,3 +70,16 @@ h3 {
     align-self: center;
     margin-bottom: 30px;
 }
+
+.smalllogo {
+    object-fit: cover;
+    width: 30vw;
+    max-width: 200px;
+}
+
+.produtosdiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
