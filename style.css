@@ -2,7 +2,7 @@
     background-color: #f4D024;
     text-align: center;
     color: #1D242C;
-    font-size:18px;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -37,7 +37,8 @@
     width: 80vw;
     margin-bottom: 10px;
     font-family: "Roboto Condensed", Sans-serif;
-    font-size:18px;
+    font-size: 22px;
+    align-items: baseline;
 }
 
 a, a:visited, a:hover {
@@ -62,14 +63,14 @@ a, a:visited, a:hover {
 }
 
 .description {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     align-self: center;
     width: 80vw;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .hero {
