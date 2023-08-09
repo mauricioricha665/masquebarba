@@ -3,6 +3,7 @@
     text-align: center;
     color: #1D242C;
     font-size:18px;
+    line-height: 30px;
 }
 
 .maindiv {
@@ -73,6 +74,14 @@ h3 {
 
 .hero {
     width: 100vw;
+    border: none;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.mapa {
+    width: 100vw;
+    max-width: 600px;
     border: none;
     align-self: center;
     margin-bottom: 30px;
