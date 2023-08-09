@@ -81,10 +81,14 @@ h3 {
 
 .mapa {
     width: 100vw;
-    max-width: 600px;
+    height: 30vh;
+    min-height: 250px;
     border: none;
     align-self: center;
     margin-bottom: 30px;
+    @media(min-width: 1025px) {
+        min-height: 400px;
+    }
 }
 
 .smalllogo {
