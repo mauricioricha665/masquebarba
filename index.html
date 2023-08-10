@@ -7,13 +7,33 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="max-image-preview:large" />
         <link rel="stylesheet" href="./style.css" media="all">
+        <link rel="stylesheet" href="./animatedstyle.css" media="all">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
     </head>
     <body class="homepage">
+        
         <div class="maindiv">
-            <div>
-                <img class="logomain" src="./logo.ai.svg" alt="Mas Que Barba! Barbearia" />
+            <div class="hero">
+                <div>
+                    <img class="logomain" src="./logo.ai.svg" alt="Mas Que Barba! Barbearia" />
+                </div>
+                <div class="scrim"></div>
+                <div class="animatedtitle" id="container">
+                    <span id="text1"></span>
+                    <span id="text2"></span>
+                </div>
+                
+                <svg id="filters">
+                    <defs>
+                        <filter id="threshold">
+                            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                  0 1 0 0 0
+                                  0 0 1 0 0
+                                  0 0 0 255 -140" />
+                        </filter>
+                    </defs>
+                </svg>
             </div>
 
             <!--iframe class="hero" allow="autoplay" src="https://www.youtube.com/embed/IJBEWfKou1I?autoplay=1&rel=0&mute=1&loop=1&controls=0"></iframe -->
@@ -84,5 +104,5 @@
             </div>
 
         </div>
-    </body>
+        <script src="./animated.js"></script>
 </html>
