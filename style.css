@@ -20,21 +20,21 @@
     background: rgba(255, 255, 255, 0.5);
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logomain {
-    max-height: 100px;
+    max-height: 200px;
     max-width: 100vw;
     object-fit: cover;
-    margin-bottom: 30px;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    @media(max-width: 1024px) {
-        max-height: 100px;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
+    align-self: center;
+    /* @media(max-width: 1024px) {
+        max-height: 200px;
+        margin-top: unset;
+        margin-right: unset;
+    } */
 }
 
 .hero {
@@ -48,6 +48,7 @@
     background-position-y: bottom;
     background-position-x: center;
     background-image: url('./images/IMG_1195_2.jpg');
+
 }
 
 .buttonsbar {
