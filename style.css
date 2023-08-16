@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
-    min-height: 50vh;
+    min-height: 45vh;
     justify-content: space-evenly;
     @media(min-width: 1025px) {
         flex-direction: row;
