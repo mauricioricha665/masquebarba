@@ -40,27 +40,39 @@ body {
     width: 100vw;
     border: none;
     align-self: center;
-    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 50vh;
     background-position-y: bottom;
     background-position-x: center;
     background-image: url('./images/IMG_1195_2.jpg');
-
+    @media(min-width: 1025px) {
+        min-height: 400px;
+    }
+    @media(max-height: 400px) {
+        min-height: 250px;
+    }
 }
 
 .buttonsbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
     max-width: 1000px;
+    min-height: 50vh;
+    justify-content: space-evenly;
     @media(min-width: 1025px) {
         flex-direction: row;
         width: 90vw;
         justify-content: space-between;
         align-self: center;
+        min-height: unset;
+        justify-content: unset;
+        margin-top: 30px;
+    }
+    @media(max-height: 400px) {
+        min-height: unset;
+        margin-top: 30px;
     }
 }
 
@@ -105,7 +117,7 @@ a, a:visited, a:hover {
     font-size: 20px;
     text-align: justify;
     align-self: center;
-    width: 80vw;
+    width: 85vw;
 }
 
 h2 {
