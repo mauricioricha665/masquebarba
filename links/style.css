@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto Condensed", Sans-serif;
+}
+
+.homepage {
+    background-color: #f4D024;
+    text-align: center;
+    color: #1D242C;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+.maindiv {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    @media(max-height: 710) {
+        justify-content: space-between;
+    }
+}
+
+
+.logomain {
+    max-height: 200px;
+    max-width: 100vw;
+    margin: 50px 0px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.buttonsbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    @media(max-height: 400px) {
+        min-height: unset;
+        margin-top: 30px;
+    }
+}
+
+.button {
+    display: flex;
+    background-color: #1D242C;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #f4D024;
+    width: 80vw;
+    font-size: 22px;
+    align-items: baseline;
+    white-space: nowrap;
+}
+
+a, a:visited, a:hover {
+    color: #f4D024;
+    text-decoration: none;
+}
+
+.buttonsmall {
+    background-color: #1D242C;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.buttontitle {
+    flex-grow: 1;
+}
+
+.buttonicon {
+    flex-grow: 0;
+    margin-left: 10px;
+}
+
+
+h2 {
+    font-size: 22px;
+}

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../py"
+		},
+		{
+			"path": "../../eclipse-workspace/ta-kafka-admin"
+		},
+		{
+			"path": "../../eclipse-workspace/mqbagenda"
+		},
+		{
+			"path": "../../eclipse-workspace/web"
+		}
+	],
+	"settings": {}
+}
